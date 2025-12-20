@@ -8,7 +8,7 @@ int main() {
     {
 
         scanf("%d",&tmp);
-        printf("%d\n",tmp);
+
         
         if (tmp%2==0) count[0]+=1; //check if even
         else count[1]+=1; //check if odd
@@ -17,7 +17,8 @@ int main() {
         if (tmp<0) count[3]+=1; //check if negetive     
 
     }
-    printf("Even: %d\nOdd: %d\nPositive: %d\nNegetive: %d\n",count[0],count[1],count[2],count[3]);
+    printf("Even: %d\nOdd: %d\nPositive: %d\nNegative: %d\n",count[0],count[1],count[2],count[3]);
+
     
 
     return 0;
