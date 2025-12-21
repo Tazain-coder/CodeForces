@@ -6,13 +6,10 @@ int main() {
     int tmp;
     for (int i = 0; i < n; i++)
     {
-
-        scanf("%d",&tmp);
-
         
+        scanf("%d",&tmp); 
         if (tmp%2==0) count[0]+=1; //check if even
-        else count[1]+=1; //check if odd
-        
+        else count[1]+=1; //check if odd     
         if (tmp>0) count[2]+=1; //check if positive
         if (tmp<0) count[3]+=1; //check if negetive     
 
